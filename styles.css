@@ -1,0 +1,31 @@
+body {
+    background-color: orange;
+}
+ul {
+    list-style-type: disc;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Times New Roman', Verdana, sans-serif;
+    background-color: aliceblue;
+    
+}
+.recipe.chapati {
+    background-color: palegoldenrod;
+}
+.recipe {
+    background-color: aqua;
+}
+.recipe a {
+    color: blueviolet;
+    text-decoration: none;
+    font-family:  serif;
+}
+.recipe .chaps {
+    color: black;
+}
+.recipe .spags {
+    color: crimson;
+}
+
+
