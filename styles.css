@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: orange;
+    margin-bottom: 300px;
 }
 ul {
     list-style-type: disc;
@@ -10,22 +16,77 @@ h1 {
     background-color: aliceblue;
     
 }
-.recipe.chapati {
-    background-color: palegoldenrod;
+
+.recipes {
+    margin-left: 100px;
+    margin-top: 55px;
 }
-.recipe {
-    background-color: aqua;
+.chapatis {
+    background-color: rgb(88, 158, 219);
+    padding: 10px 200px 270px 90px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    display: inline-block;
+    position: fixed;
 }
-.recipe a {
-    color: blueviolet;
+.rices {
+    display: inline-block;
+    background-color: rgb(88, 158, 219);
+    padding: 10px 200px 270px 90px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 420px;
+    border-radius: 5px;
+    border-style: solid;    
+}
+.spaghettis {
+    background-color: rgb(33, 121, 197);
+    display: inline-block;
+    padding: 10px 200px 270px 90px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 120px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.chapatis .chaps{
+    background-color: rgb(189, 207, 194);
+    color: brown;
+    text-align: right;
     text-decoration: none;
-    font-family:  serif;
+    margin-top: 120px;
+    margin-left: -35px;
+    padding: 5px;
+    border-radius: 5px;
+    position:fixed;
 }
-.recipe .chaps {
-    color: black;
+.rices a {
+    position: fixed;
+    margin-top: 120px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
-.recipe .spags {
-    color: crimson;
+.spaghettis a {
+    position: fixed;
+    margin-top: 120px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
 }
-
-
+.meals .para, .items{
+    margin-left: 50px;
+    padding: 5px;
+}
+.meals .steps{
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
