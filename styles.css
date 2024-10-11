@@ -82,11 +82,15 @@ h1 {
     border-radius: 10px;
     color: white;
 }
-.meals .para, .items{
-    margin-left: 50px;
-    padding: 5px;
+.meals{
+    display: inline-block;
+    padding: 10px 0px 5px 35px;
+
 }
-.meals .steps{
-    margin-left: 50px;
-    padding-bottom: 5px;
+img {
+    display: inline-block;
+    width: 380px;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: 5px;
 }
